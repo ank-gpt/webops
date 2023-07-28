@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(111, 168, 254);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info{
+    height: 70vh;
+    width: 30vw ;
+    display: flex;
+    flex-flow: column;
+    color: whitesmoke;
+    border: 2px solid gray;
+    border-radius: 30px;
+    justify-content: space-evenly;
+}
+.city{
+   display: flex;
+   justify-content: center;
+   font-size: 10vh;
+   white-space: nowrap;
+}
+.date{
+    display: flex;
+    justify-content: center;
+    font-size: 4vh;
+ }
+.image{
+    display: flex;
+    justify-content: space-evenly;
+}
+.image img{
+    height: 20vh;
+}
+.image .temp{
+    font-size: 17vh;
+    display: flex;
+    justify-content: center;
+}
+.image .temp span{
+    font-size: 6vh;
+}
+.max_min{
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.des{
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+}
+/*-------------------------------*/
+.weather{
+    height: 70vh;
+    width: 30vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    border-radius: 30px;
+}
+.weather{
+    background-color: rgba(255, 255, 255, 0.3);
+    color: whitesmoke;
+}
+.box.one{
+    font-size: 20px;
+    margin-left: 2px;
+}
+/* -------------weather------------------- */
+.humid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.pres{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.winds{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.windd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.precip{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.visible{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.uv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* -----------------------------------------------  */
+.box.one img{
+    height: 30px;
+    margin-right: 10px;
+}
+.box.two{
+    margin-right: 20px;
+    font-size: 20px;
+}
